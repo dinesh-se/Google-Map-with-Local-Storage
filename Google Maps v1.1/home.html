@@ -1,0 +1,33 @@
+<!-- 
+	Created by Dinesh Haribabu
+	Emp ID 668332
+
+	This project shows how to implement localStorage, Geolocation and Geocoding 
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Geolocation and localStorage HTML5</title>
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery-2.1.0.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+		<script src="js/map.js"></script>
+	</head>
+	<body>
+		<div id="container_left">
+			<div id="controls">
+				<input type="text" class="" id="search" placeholder="Enter Place"/>
+				<button class="white" type="submit" id="mapIt">Map It</button>
+				<button class="white" id="current">Get Current Location</button>
+			</div>
+			<div id="map"></div>
+		</div>
+			<div id="storage">
+				<ul id="searchList"></ul>
+				<div id="buttonHolder">
+					<button class="white query" id="clear">Clear Recent Searches</button>
+				</div>
+			</div>
+	</body>
+</html>

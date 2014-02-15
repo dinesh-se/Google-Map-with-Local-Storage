@@ -1,0 +1,98 @@
+* {
+	margin:0;
+	padding:0;
+}
+#container_left {
+	width: 75%;
+}
+#map {
+	position:absolute;
+	top:0;
+	bottom:0;
+	background:#C3D2DE;
+	width:75%;
+	border:10px solid #000;
+	box-sizing:border-box;
+}
+#controls {
+	position: relative;
+	z-index: 999;
+	padding: 13px;
+	background-color: rgba(0,0,0,.6);
+	width: 359px;
+	margin: 25px auto;
+}
+#storage {
+	background-color:rgba(0,0,0,.6);
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:0;
+	width:25%;
+	border:10px solid #000;
+	border-left:0;
+	box-sizing:border-box;
+}
+ul#searchList{
+	height: 95%;
+	overflow: auto;
+}
+#searchList li{
+	padding: 10px;
+	list-style:none;
+	color: #fff;
+}
+#buttonHolder {
+	position: absolute;
+	bottom: 0px;
+	background: #000;
+	height: 5%;
+	width: 100%;
+}
+input {
+	height:60%;
+	border:1px solid #d1c7ac;
+	width: 150px;
+	color:#CC0A4E;
+	padding:3px;
+	margin-right:4px;
+	font-family:tahoma, arial, sans-serif;
+}
+button {
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 12px/100% Arial, Helvetica, sans-serif;
+	padding: 5px 10px 5px 10px;;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.white {
+	color: #606060;
+	border: solid 1px #b7b7b7;
+	background: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+	background: -moz-linear-gradient(top,  #fff,  #ededed);
+}
+.white:hover {
+	background: #ededed;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dcdcdc));
+	background: -moz-linear-gradient(top,  #fff,  #dcdcdc);
+}
+.white:active {
+	color: #999;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#fff));
+	background: -moz-linear-gradient(top,  #ededed,  #fff);
+}
+.query {
+	display: block;
+	position:relative;
+	margin:0px auto;
+	top:10px;
+}
